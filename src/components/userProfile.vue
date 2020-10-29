@@ -1,4 +1,5 @@
 <template>
+
   <div class="user-profile">
     <div class="user-profile__user-panel">
       <img
@@ -17,8 +18,8 @@
         src="../badge.png"
         alt=""
         v-if="user.isVerified"
-        height="30px"
-        width="30px"
+        height="20px"
+        width="20px"
       />
       <h1 class="user-profile__firstname">
         {{ this.user.firstName }} {{ this.user.secondName }}
@@ -37,15 +38,16 @@
       >
         <label for="newTweet"><strong>New Tweet</strong> ({{newTweetCharactersCount}}/180)</label>
         <textarea
+            placeholder="Your tweet"
           name="newTweet"
           id="user-profile__tweet-area"
-          cols="50"
+          cols="35"
           rows="4"
           v-model="newTweetContent"
         ></textarea>
 
         <div class="user-profile__create-tweet-type">
-          <label for="tweetType">Tweet type</label>
+          <label for="tweetType">Tweet type:</label>
           <select name="tweetTyoe" id="newTweetType" v-model="selectedTweet">
             <option
               :value="option.value"
@@ -100,9 +102,9 @@ export default {
         firstName: "Elzodxon",
         secondName: "Sharofaddinov",
         email: "elzodxon@gmail.com",
-        isAdmin: true,
+        isAdmin: false,
         isModerator: false,
-        isVerified: false,
+        isVerified: true,
         tweets: [
           {
             id: 1,
@@ -225,6 +227,7 @@ export default {
 
 .user-profile__verified-badge {
   margin-top: 10px;
+  margin-left: 360px;
 }
 
 .user-profile__create-tweet {
@@ -239,6 +242,52 @@ export default {
   gap: 10px;
 }
 
+.user-profile__create-tweet-type{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+button{
+  color: white;
+  padding: 5px;
+  font-size: 18px;
+  background: #2c3e50;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  margin-left: 90px;
+}
+
+#newTweetType{
+  appearance: none;
+  font-size: 18px;
+  color: white;
+  background-color: #2c3e50 !important;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  margin-left: 20px;
+
+}
+
+user-profile__create-tweet-type label{
+  color: #2c3e50;
+  font-size: 20px;
+}
+
+textarea {
+  border: 1px solid #2c3e50;
+  outline: none;
+  font-size: 15px;
+  border-radius: 10px;
+  padding: 20px;
+  resize: none;
+}
 .exceeded{
   color: red;
   border-color: red;

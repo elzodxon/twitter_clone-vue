@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e776261c-8cc4-426f-89e3-ce1382888118" name="Default Changelist" comment="" />
+    <list default="true" id="e776261c-8cc4-426f-89e3-ce1382888118" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/down-arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/4a919cca1f698acd1f0f2bccfd6ae443.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/4a919cca1f698acd1f0f2bccfd6ae443.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/60f7afcd12ee729dc0ba4493f9d3372a.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/60f7afcd12ee729dc0ba4493f9d3372a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/14d4cb8a209b30b48d204b2d174ac08d.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/14d4cb8a209b30b48d204b2d174ac08d.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/163c4aba4c5b4aea816b3e8f748b1577.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/163c4aba4c5b4aea816b3e8f748b1577.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/474ba9ec366e8d4f4497aebea918b8d5.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/474ba9ec366e8d4f4497aebea918b8d5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/6aa2a4e97a86d6eb2f6742c6842b05c5.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/6aa2a4e97a86d6eb2f6742c6842b05c5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/6c35f298494471792469cc508573ec70.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/6c35f298494471792469cc508573ec70.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/709d665ca7534a2010ff37ed0aa312d7.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/709d665ca7534a2010ff37ed0aa312d7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/cdd0dba883ded9781e56c562b11c04fe.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/cdd0dba883ded9781e56c562b11c04fe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/cdde95d7ffdc2c099b4cbadd9559ebc5.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/cdde95d7ffdc2c099b4cbadd9559ebc5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/eb5aa12de2f8b7a820b97c4467cc4b19.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/eb5aa12de2f8b7a820b97c4467cc4b19.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/f906627bc44aa4b91ae3b8389bdadfbc.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/f906627bc44aa4b91ae3b8389bdadfbc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/userProfile.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/userProfile.vue" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,8 +35,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -30,10 +53,21 @@
       <option name="presentableId" value="Default" />
       <updated>1603974038334</updated>
       <workItem from="1603974039400" duration="55000" />
+      <workItem from="1603996054804" duration="2874000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="499" y="80" width="912" height="887" key="CommitChangelistDialog2" timestamp="1603996087283">
+      <screen x="0" y="32" width="1920" height="982" />
+    </state>
+    <state x="499" y="80" width="912" height="887" key="CommitChangelistDialog2/0.32.1920.982@0.32.1920.982" timestamp="1603996087283" />
+    <state x="624" y="238" key="run.anything.popup" timestamp="1603997726072">
+      <screen x="0" y="32" width="1920" height="982" />
+    </state>
+    <state x="624" y="238" key="run.anything.popup/0.32.1920.982@0.32.1920.982" timestamp="1603997726072" />
   </component>
 </project>

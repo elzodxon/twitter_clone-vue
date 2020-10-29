@@ -1,5 +1,8 @@
 <template>
   <div id="app">
+
+
+
     <userProfile />
   </div>
 </template>
@@ -27,4 +30,21 @@ export default {
   min-height: 100vh;
   background: #f3f5fa;
 }
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 5%;
+  background: #2c3e50;
+  color: white;
+}
+
+.navigation__logo,
+.navigation__user{
+  font-weight: bold;
+  font-size: 24px;
+}
+
+
 </style>
