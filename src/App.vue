@@ -1,7 +1,14 @@
 <template>
   <div id="app">
-
-
+    <nav>
+      <div class="navigation__logo">
+        Twitter
+      </div>
+      <div class="navigation__user" style="display: flex; align-items: center; ">
+        <img src="https://picsum.photos/40/40" alt="" style="border-radius: 50%; margin-right: 20px" height="40" width="40">
+        @elzodxon_me
+      </div>
+    </nav>
 
     <userProfile />
   </div>
@@ -35,14 +42,18 @@ nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 5%;
+  padding: 30px 5%;
   background: #2c3e50;
   color: white;
 }
 
-.navigation__logo,
-.navigation__user{
+.navigation__logo{
   font-weight: bold;
+  font-size: 24px;
+}
+
+.navigation__user{
+  font-weight: normal;
   font-size: 24px;
 }
 

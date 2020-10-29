@@ -36,18 +36,18 @@
         @submit.prevent="createNewTweet"
         :class="{'exceeded': newTweetCharactersCount> 180}"
       >
-        <label for="newTweet"><strong>New Tweet</strong> ({{newTweetCharactersCount}}/180)</label>
+        <label for="user-profile__tweet-area"><strong>New Tweet</strong> ({{newTweetCharactersCount}}/180)</label>
         <textarea
             placeholder="Your tweet"
           name="newTweet"
           id="user-profile__tweet-area"
-          cols="35"
+          cols="30"
           rows="4"
           v-model="newTweetContent"
         ></textarea>
 
         <div class="user-profile__create-tweet-type">
-          <label for="tweetType">Tweet type:</label>
+          <label for="newTweetType">Tweet type:</label>
           <select name="tweetTyoe" id="newTweetType" v-model="selectedTweet">
             <option
               :value="option.value"
@@ -122,22 +122,7 @@ export default {
             id: 4,
             content: "Don't forget to follow me",
           },
-          {
-            id: 5,
-            content: "Don't forget to follow me",
-          },
-          {
-            id: 6,
-            content: "Don't forget to follow me",
-          },
-          {
-            id: 7,
-            content: "Don't forget to follow me",
-          },
-          {
-            id: 8,
-            content: "Don't forget to follow me",
-          },
+
         ],
       },
     };
@@ -195,7 +180,7 @@ export default {
   padding: 20px;
   border: #dfe3e8 2px solid;
   border-radius: 20px;
-  height: 80%;
+  height: 425px;
 }
 
 .user-profile__userpic {
@@ -235,6 +220,7 @@ export default {
   flex-direction: column;
   align-items: center;
   padding: 20px;
+  margin-top: 20px;
 }
 
 .user-profile__tweets-wrapper{
