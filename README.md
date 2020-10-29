@@ -1,4 +1,4 @@
-# untitled2
+# Twutter Clone Vue App
 
 ## Project setup
 ```
