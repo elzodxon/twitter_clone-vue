@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e776261c-8cc4-426f-89e3-ce1382888118" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/navbar.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/app.cf6a64ee.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/app.e6380142.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/app.e6380142.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/tweetitem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tweetitem.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/userProfile.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/userProfile.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +48,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603974038334</updated>
       <workItem from="1603974039400" duration="55000" />
-      <workItem from="1603996054804" duration="5674000" />
+      <workItem from="1603996054804" duration="8829000" />
     </task>
     <servers />
   </component>
@@ -57,5 +64,9 @@
       <screen x="0" y="32" width="1920" height="982" />
     </state>
     <state x="624" y="238" key="run.anything.popup/0.32.1920.982@0.32.1920.982" timestamp="1603997726072" />
+    <state x="685" y="426" width="540" height="195" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1604001759856">
+      <screen x="0" y="32" width="1920" height="982" />
+    </state>
+    <state x="685" y="426" width="540" height="195" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.32.1920.982@0.32.1920.982" timestamp="1604001759856" />
   </component>
 </project>

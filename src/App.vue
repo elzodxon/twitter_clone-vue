@@ -6,7 +6,7 @@
       </div>
       <div class="navigation__user" style="display: flex; align-items: center; ">
         <img src="https://picsum.photos/40/40" alt="" style="border-radius: 50%; margin-right: 20px" height="40" width="40">
-        @elzodxon_me
+        @elzodxon
       </div>
     </nav>
 

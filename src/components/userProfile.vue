@@ -102,7 +102,7 @@ export default {
         firstName: "Elzodxon",
         secondName: "Sharofaddinov",
         email: "elzodxon@gmail.com",
-        isAdmin: false,
+        isAdmin: true,
         isModerator: false,
         isVerified: true,
         tweets: [
@@ -116,11 +116,11 @@ export default {
           },
           {
             id: 3,
-            content: "Don't forget to follow me",
+            content: "My first VUE application",
           },
           {
             id: 4,
-            content: "Don't forget to follow me",
+            content: "You can tweet here, but, you cannot save your tweets, cause there is no backend:))",
           },
 
         ],
@@ -180,7 +180,7 @@ export default {
   padding: 20px;
   border: #dfe3e8 2px solid;
   border-radius: 20px;
-  height: 425px;
+  height: 450px;
 }
 
 .user-profile__userpic {
@@ -188,7 +188,7 @@ export default {
 }
 
 .user-profile__username {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 400;
   padding-bottom: 20px;
   text-decoration: none;
@@ -257,8 +257,6 @@ button{
   border: none;
   cursor: pointer;
   outline: none;
-  margin-left: 20px;
-
 }
 
 user-profile__create-tweet-type label{
@@ -269,7 +267,7 @@ user-profile__create-tweet-type label{
 textarea {
   border: 1px solid #2c3e50;
   outline: none;
-  font-size: 15px;
+  font-size: 20px;
   border-radius: 10px;
   padding: 20px;
   resize: none;

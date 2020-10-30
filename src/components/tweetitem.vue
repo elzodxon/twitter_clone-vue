@@ -42,8 +42,6 @@ export default {
   margin-bottom: 20px;
 }
 
-.user-profile__tweet {
-}
 
 .tweetItem:hover {
   transform: scale(1.05, 1.05);
@@ -52,6 +50,11 @@ export default {
 .tweet-item__user {
   color: #2c3e50;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 20px;
+}
+
+.tweet-item__content{
+  color: black;
+  font-size: 18px;
 }
 </style>
